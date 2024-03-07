@@ -1,0 +1,137 @@
+body {
+    background-color: #f0f0f0; /* Змінено колір фону */
+}
+
+/* Стилізація навігації */
+nav {
+    display: inline-block; /* Змінено на inline-block */
+    width: 80%; /* Змінено ширину на 80% */
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:focus {
+    background-color: #555;
+}
+
+/* Стилізація зображень */
+img {
+    width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/* Стилізація за допомогою Grid */
+.page {
+    display: grid;
+    grid-template-columns: repeat(2, 40%); /* Змінено ширину колонок */
+    grid-gap: 20px;
+}
+
+/* Стилізація за допомогою Flexbox */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Ефект при наведенні */
+nav a:hover {
+    background-color: #666;
+    transition: background-color 0.3s ease;
+}
+
+/* Стилізація кожного другого зображення */
+main img:nth-child(even) {
+    border-radius: 0;
+    border-color: #aaa;
+    margin-bottom: 20px;
+}
+
+/* Анімація при наведенні на зображення */
+img {
+    width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+/* Анімація переходу між сторінками */
+.page {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    transition: transform 0.5s ease;
+}
+
+.page:hover {
+    transform: translateY(-5px);
+}
+
+/* Переходи для навігаційних посилань */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Змінити розмір зображень */
+img {
+    max-width: 25%;
+    height: auto;
+}
+
+/* Змінити рамку для всіх зображень */
+img {
+    border: 1px solid black;
+}
+
+/* Стилізація рамки для всіх зображень */
+img {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+}
+
+/* Стилізація зображень у навігаторі */
+nav img {
+    width: 10%; /* Змінено ширину зображення */
+}
+
+/* Стилізація зображень */
+img {
+
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* Оновлення рамки для всіх зображень */
+img {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
